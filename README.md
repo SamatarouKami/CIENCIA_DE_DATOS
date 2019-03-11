@@ -7,5 +7,6 @@ Materia de Ciencia de Datos
 * [Práctica 3](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/P3.ipynb)
 * [Práctica 4]()
 * [Práctica 5](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/P5.ipynb)
+* [Práctica 6](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/P6.ipynb)
 
 
