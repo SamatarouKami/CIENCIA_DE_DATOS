@@ -7,6 +7,8 @@
 \usepackage{graphicx}
 \usepackage{url}
 
+ 
+
 
 \begin{document}
 
@@ -73,17 +75,72 @@ Se implementó SKLearn\cite{sklearn} para realizar clasificaciones y agrupamient
 
 
 \section*{Resultados}
-P10
-P11
-P13
-***PENDIENTE DE AGREGAR ***
+Se graficaron los datos para ver si se podía concluir algo sobre éstos. Después se seleccionaron los participantes extranjeros de todos los cuatro años, y se ordenaron por el país de procedencia.
+
+\subsection*{Categorizaciones}
+
+Como tenemos muchas cadenas de texto en nuestros datos, es importante hacer categorizaciones ya que hacemos conteos de la información que tenemos disponible y así poder hacer cálculos estadísticos. Aplicamos una categorización por país, pero se removieron los datos que involucran a México y Colombia que son los países anfitriones del concurso y por ende son los que nos sesgan la información, entonces esta información será relevante a los países extranjeros que participan. 
+
+Con estas categorías pudimos buscar Modelos lineales y regresión múltiple.
+
+
+\includegraphics[width=0.4\textwidth]{01}
+
+
+\includegraphics[width=0.4\textwidth]{02}
+
+Primero probamos la normalidad de los datos por país de procedencia y por categoría de participación.
+
+
+\includegraphics[width=0.4\textwidth]{03}
+Se hizo una regresión lineal múltiple entre los años de participación, para saber si existía correlación.
+
+
+\subsection*{Machine Learning}
+También se usó la librería \textit{sklearn} para ver si las clasificaciones de las categorías ayudaban a entrenar a una red neuronal para que cuando se le entregaran otro conjunto de datos los clasificara correctamente.
+
+
+\includegraphics[width=0.4\textwidth]{04}
+
+
+Posteriormente, seguimos utilizando la librería para aplicar algoritmos de agrupamiento, para que los datos se ordenaran de acuerdo a sus propias características.
+
+\subsubsection*{Algoritmo K-Means}
+
+Éste algoritmo agrupa los datos al tratar de separar muestras en n grupos de igual varianza, minimizando un criterio conocido como la inercia o la suma de cuadrados dentro del grupo. Este algoritmo requiere que se especifique la cantidad de grupos. Se adapta bien a un gran número de muestras y se ha utilizado en una amplia gama de áreas de aplicación en muchos campos diferentes.
+
+\includegraphics[width=0.4\textwidth]{05}
+
+Al aplicar el algoritmo de K-medias, el valor de K usado fue 2. También evaluó cambiar el valor de K, y obtuvimos la siguiente gráfica.
+
+\includegraphics[width=0.4\textwidth]{06}
+
+
+\subsubsection*{Algoritmo AffinityPropagation}
+
+Éste algoritmo crea clústeres enviando mensajes entre pares de muestras hasta la convergencia. Luego se describe un conjunto de datos utilizando un pequeño número de ejemplares, que se identifican como los más representativos de otras muestras. Los mensajes enviados entre pares representan la idoneidad para que una muestra sea el ejemplar de la otra, que se actualiza en respuesta a los valores de otros pares. Esta actualización ocurre de manera iterativa hasta la convergencia, momento en el que se eligen los ejemplares finales y, por lo tanto, se proporciona la agrupación final.
+
+
+\includegraphics[width=0.4\textwidth]{07}
+
+Se aplicó el algoritmo AffinityPropagation sobre los mismos datos que el K-medias, donde también se dividió en 2 grupos, pero la división de esos grupos se movió a mayor edad.
+
 
 
 
 
 \section*{Conclusiones}
-***PENDIENTE DE AGREGAR ***
+La información proporcionada que se proceso fue insuficiente. Contábamos con aproximadamente 4600 registros de los cuales solo el 10\% tenía la información completa. 
 
+Debido a que fue el primer año en registrarse el año 2015 fue el cuello de botella para procesar el resto de la información.
+
+El año 2016, se tuvo mayor participación en las categorías infantil y juvenil.
+
+En el año 2017, la cantidad de participantes extranjeros aumentó.
+
+En 2018, debido a que se contemplaron los dos festivales, el Colombiano y el Mexicano, la cantidad de extranjeros que participaron disminuyó, porque se decidió iniciar un festival nuevo en el país que más extranjeros aportaba al festival.
+
+Se deberían agregar limitaciones a los campos de categoría de este festival, como los géneros de los filmes, las Marcas de celulares y limitar la sinopsis a una cantidad precisa de caracteres. 
 
 
 

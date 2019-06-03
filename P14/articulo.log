@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.14)  3 JUN 2019 06:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.5)  3 JUN 2019 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,42 +847,42 @@ LaTeX Info: Redefining \% on input line 9.
 )
 \openout1 = `articulo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 11.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 11.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 13.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 13.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 11.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 13.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 11.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 13.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 11.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 11.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -988,56 +988,196 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 32.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 34.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 32.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] (./articulo.bbl
+]
+Package epstopdf Info: Source file: <01.eps>
+(epstopdf)                    date: 2019-06-03 11:53:11
+(epstopdf)                    size: 649050 bytes
+(epstopdf)             Output file: <01-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-03 12:01:24
+(epstopdf)                    size: 9056 bytes
+(epstopdf)             Command: <repstopdf --outfile=01-eps-converted-to.pdf 01
+.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./01-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<01-eps-converted-to.pdf, id=10, 399.4925pt x 266.9975pt>
+File: 01-eps-converted-to.pdf Graphic file (type pdf)
+<use 01-eps-converted-to.pdf>
+Package pdftex.def Info: 01-eps-converted-to.pdf  used on input line 87.
+(pdftex.def)             Requested size: 208.79681pt x 139.54837pt.
+Package epstopdf Info: Source file: <02.eps>
+(epstopdf)                    date: 2019-06-03 11:53:20
+(epstopdf)                    size: 629653 bytes
+(epstopdf)             Output file: <02-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-03 12:01:24
+(epstopdf)                    size: 8152 bytes
+(epstopdf)             Command: <repstopdf --outfile=02-eps-converted-to.pdf 02
+.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./02-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<02-eps-converted-to.pdf, id=11, 387.4475pt x 266.9975pt>
+File: 02-eps-converted-to.pdf Graphic file (type pdf)
+<use 02-eps-converted-to.pdf>
+Package pdftex.def Info: 02-eps-converted-to.pdf  used on input line 90.
+(pdftex.def)             Requested size: 208.79681pt x 143.88722pt.
+Package epstopdf Info: Source file: <03.eps>
+(epstopdf)                    date: 2019-06-03 11:54:24
+(epstopdf)                    size: 1820388 bytes
+(epstopdf)             Output file: <03-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-03 12:01:25
+(epstopdf)                    size: 38570 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-eps-converted-to.pdf 03
+.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./03-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<03-eps-converted-to.pdf, id=12, 555.07375pt x 542.025pt>
+File: 03-eps-converted-to.pdf Graphic file (type pdf)
+<use 03-eps-converted-to.pdf>
+Package pdftex.def Info: 03-eps-converted-to.pdf  used on input line 95.
+(pdftex.def)             Requested size: 208.79681pt x 203.88744pt.
+[2 <./01-eps-converted-to.pdf> <./02-eps-converted-to.pdf> <./03-eps-converted-
+to.pdf>]
+Package epstopdf Info: Source file: <04.eps>
+(epstopdf)                    date: 2019-06-03 11:58:18
+(epstopdf)                    size: 7958793 bytes
+(epstopdf)             Output file: <04-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-03 12:01:30
+(epstopdf)                    size: 414561 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-eps-converted-to.pdf 04
+.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./04-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<04-eps-converted-to.pdf, id=25, 1148.29pt x 1148.29pt>
+File: 04-eps-converted-to.pdf Graphic file (type pdf)
+<use 04-eps-converted-to.pdf>
+Package pdftex.def Info: 04-eps-converted-to.pdf  used on input line 103.
+(pdftex.def)             Requested size: 208.79681pt x 208.78586pt.
+Package epstopdf Info: Source file: <05.eps>
+(epstopdf)                    date: 2019-06-03 11:58:24
+(epstopdf)                    size: 579967 bytes
+(epstopdf)             Output file: <05-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-03 12:01:31
+(epstopdf)                    size: 8742 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-eps-converted-to.pdf 05
+.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./05-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<05-eps-converted-to.pdf, id=26, 376.40625pt x 252.945pt>
+File: 05-eps-converted-to.pdf Graphic file (type pdf)
+<use 05-eps-converted-to.pdf>
+Package pdftex.def Info: 05-eps-converted-to.pdf  used on input line 112.
+(pdftex.def)             Requested size: 208.79681pt x 140.31665pt.
+Package epstopdf Info: Source file: <06.eps>
+(epstopdf)                    date: 2019-06-03 11:58:28
+(epstopdf)                    size: 599875 bytes
+(epstopdf)             Output file: <06-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-03 12:01:31
+(epstopdf)                    size: 12265 bytes
+(epstopdf)             Command: <repstopdf --outfile=06-eps-converted-to.pdf 06
+.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./06-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<06-eps-converted-to.pdf, id=27, 389.455pt x 252.945pt>
+File: 06-eps-converted-to.pdf Graphic file (type pdf)
+<use 06-eps-converted-to.pdf>
+Package pdftex.def Info: 06-eps-converted-to.pdf  used on input line 116.
+(pdftex.def)             Requested size: 208.79681pt x 135.60791pt.
+Package epstopdf Info: Source file: <07.eps>
+(epstopdf)                    date: 2019-06-03 11:58:32
+(epstopdf)                    size: 579967 bytes
+(epstopdf)             Output file: <07-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-03 12:01:32
+(epstopdf)                    size: 8680 bytes
+(epstopdf)             Command: <repstopdf --outfile=07-eps-converted-to.pdf 07
+.eps>
+(epstopdf)             \includegraphics on input line 124.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./07-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<07-eps-converted-to.pdf, id=28, 376.40625pt x 252.945pt>
+File: 07-eps-converted-to.pdf Graphic file (type pdf)
+<use 07-eps-converted-to.pdf>
+Package pdftex.def Info: 07-eps-converted-to.pdf  used on input line 124.
+(pdftex.def)             Requested size: 208.79681pt x 140.31665pt.
+[3 <./04-eps-converted-to.pdf> <./05-eps-converted-to.pdf> <./06-eps-converted-
+to.pdf> <./07-eps-converted-to.pdf>] (./articulo.bbl
 Underfull \hbox (badness 1122) in paragraph at lines 34--37
 []\OT1/txr/m/n/8 Dominique Haugh-ton, Mark-David McLaugh-lin, Ke-vin Men-tzer, 
 and
  []
 
-) [2] (./articulo.aux
+) [4
+
+] (./articulo.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 ) ) 
 Here is how much of TeX's memory you used:
- 5179 strings out of 492982
- 65756 string characters out of 6134896
- 147374 words of memory out of 5000000
- 8609 multiletter control sequences out of 15000+600000
+ 5228 strings out of 492982
+ 66809 string characters out of 6134896
+ 148371 words of memory out of 5000000
+ 8638 multiletter control sequences out of 15000+600000
  30118 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,30p,943b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on articulo.pdf (2 pages, 57696 bytes).
+f-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on articulo.pdf (4 pages, 552061 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
