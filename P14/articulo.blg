@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: articulo.aux
+The style file: plainurl.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: mybiblio.bib
+Warning--to sort, need author or key in numpy
+Warning--to sort, need author or key in pandas
+Warning--to sort, need author or key in scipy
+Warning--to sort, need author or key in matplotlib
+Warning--to sort, need author or key in sklearn
+Warning--empty journal in dhar2012data
+Warning--empty publisher in inbook
+You've used 9 entries,
+            2849 wiz_defined-function locations,
+            653 strings with 5787 characters,
+and the built_in function-call counts, 3013 in all, are:
+= -- 275
+> -- 87
+< -- 1
++ -- 34
+- -- 24
+* -- 134
+:= -- 391
+add.period$ -- 22
+call.type$ -- 9
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 98
+empty$ -- 344
+format.name$ -- 24
+if$ -- 825
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 6
+newline$ -- 43
+num.names$ -- 8
+pop$ -- 110
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 245
+stack$ -- 0
+substring$ -- 87
+swap$ -- 15
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 7
+while$ -- 11
+width$ -- 10
+write$ -- 77
+(There were 7 warnings)

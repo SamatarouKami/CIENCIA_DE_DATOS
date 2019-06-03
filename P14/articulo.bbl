@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{matplotlib}
+Matplotlib.
+\newblock URL: \url{https://matplotlib.org/}.
+
+\bibitem{numpy}
+Numpy.
+\newblock URL: \url{https://www.numpy.org/}.
+
+\bibitem{pandas}
+Python data analysis library.
+\newblock URL: \url{https://pandas.pydata.org/}.
+
+\bibitem{scipy}
+Scipy.org.
+\newblock URL: \url{https://www.scipy.org/}.
+
+\bibitem{sklearn}
+Sklearn.
+\newblock URL: \url{https://scikit-learn.org/stable/}.
+
+\bibitem{dhar2012data}
+Vasant Dhar.
+\newblock Data science and prediction.
+\newblock 2012.
+
+\bibitem{oscars2013}
+Michael Gold, Ryan McClarren, and Conor Gaughan.
+\newblock The lessons oscar taught us: Data science and media \& entertainment.
+\newblock {\em Big Data}, 1(2):105--109, 2013.
+
+\bibitem{movie2015}
+Dominique Haughton, Mark-David McLaughlin, Kevin Mentzer, and Changan Zhang.
+\newblock {\em Movie analytics: a hollywood introduction to big data}.
+\newblock Springer, 2015.
+
+\bibitem{inbook}
+Dominique Haughton, Mark-David Mclaughlin, Kevin Mentzer, and Changan Zhang.
+\newblock {\em Oscar Prediction and Prediction Markets}, pages 37--39.
+\newblock 01 2015.
+
+\end{thebibliography}

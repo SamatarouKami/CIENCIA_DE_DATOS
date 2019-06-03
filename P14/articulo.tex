@@ -1,0 +1,103 @@
+\documentclass[5p,times]{elsarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Datos interesantes detrás de un concurso de cine.}
+\author{L.A. Gutierrez-Rodriguez}
+\address{Posgrado de Ingeniería en Sistemas,\\ Facultad de Ingeniería Mecánica y Eléctrica,\\ Universidad Autónoma de Nuevo León}
+\ead{luis.gutierrezrd@uanl.edu.mx}
+
+\begin{abstract}
+Contamos con los registros de un concurso de cine, cuyos filmes han sido grabados con dispositivos smartphone. Se busca identificar el alcance del certamen, ayudar a definir las mejores técnicas de difusión, caracterizar las categorías para equilibrar la cantidad de participantes, mejorar la forma en que se registraron los participantes y pronosticar la participación de los próximos años. 
+
+La información se encuentra almacenada en cinco documentos de hoja de cálculo. Cada documento cuenta con los registros del concurso de cada año, del 2015 al 2018. Cuatro de ellos son del festival con sede en Colombia y el último del primer festival en México.
+
+Se utiliza el lenguaje de programación Python y las librerías Numpy, Pandas, Scipy y MatPlotLib para realizar análisis estadístico sobre los datos y poder graficar los resultados. Se aplican modelos de regresión lineal y múltiple. Se analiza la varianza y las componentes principales de los datos. Se pronostica la cantidad de participantes de futuros años. Se implementa la librería SKLearn para clasificar y agrupar los datos. Y se realiza análisis de texto de las sinopsis e imágenes de los vídeos ganadores. Al aplicar técnicas de estadística descriptiva se puede determinar que la mayoría de extranjeros que participan en el concurso son de México. Por este motivo se decidió en 2018 abrir un festival en ese país. 
+
+
+
+
+\end{abstract}
+
+\end{frontmatter}
+
+
+
+
+\section*{Introducción}
+En la actualidad contamos con una cantidad inmensa de datos debido a que almacenamos toda clase de información. Se busca darle un sentido útil a estos datos para poder comprenderlos. La ciencia de datos es el estudio de la extracción generalizable de conocimiento a partir de datos \cite{dhar2012data}. En este trabajo se busca aplicar la ciencia de datos ayudar en la toma de decisiones de dónde y cuándo se deben organizar los eventos, la mejor forma de organizar las categorías y en que otros países se puede expandir el festival. 
+
+Se sabe que la mayoría de los concursantes son de regiones cercanas a la capital de Colombia, que estos concursantes usan smartphones para grabar sus vídeos, que proporcionan una sinopsis, y cada participante ubica su filme en un género. Además, no se tiene identificación de los participantes, y por esto no se puede trazar su participación a lo largo de los festivales.
+
+En antecedentes hablaremos de todo lo relacionado con el festival de cine. En la literatura relacionada, veremos que problemas ya han sido tratados y como la obtención de información ayudó a la toma de decisiones. Además, se trataran temas que están relacionadas con el tipo de información que buscamos. En la metodología aplicada se mencionan las hipótesis que probamos sobre los datos y las herramientas utilizadas. En la sección de los resultados podremos observar cómo se comportaron los datos con los análisis que probamos. Y en conclusión determinamos el sentido de nuestras hipótesis.
+
+\section*{Antecedentes}
+SmartFilms se ha convertido en el festival de cine más importante del momento en Colombia, gracias a los diferentes escenarios que les permiten a los participantes exhibir todo tipo de contenidos, usando los valores y conceptos de las marcas patrocinadoras de las diferentes categorías por medio del storytelling, product placement y branded content, de esta manera, marcar un nuevo camino hacia el crecimiento de las industrias, utilizando las empresas privadas como aliado en la producción cinematográfica.
+
+Los participantes deben realizar un cortometraje de máximo 5 minutos, incluyendo créditos y este debe ser grabado en su totalidad con un celular o dispositivo móvil, adjuntar un making of (detrás de cámaras), adjuntar cartel de propaganda y enviar el cortometraje antes del cierre de la convocatoria.
+
+El festival es anual. En cada proceso se realizan actividades pedagógicas y de activación para incentivar a las personas a que participen y fomenten la industria cinematográfica
+
+
+\section*{Literatura relacionada}
+A través del tiempo, el cine ha sido considerado el séptimo arte, la octava maravilla y por ello se han creado certámenes para apreciar el trabajo que conlleva realizar un film. El certamen más importante en el mundo del cine son los premios Oscar. Depende de la academia determinar cual film es ganador de ciertas categorías como iluminación, guión, director, actores, entre otros. Las tecnologías de la información son un rubro tan amplio que se extiende al cine. Se puede analizar la composición de imagen de un film no solo con el ojo de un experto, si no también con visión computacional. En el 2013 se publicó un artículo \cite{oscars2013} donde se hizo un análisis predictivo y se buscaba determinar quienes serían los ganadores de las diversas categorías. Esta aplicación también ilustró cómo \textit{Data Science} podría implementarse en las industrias de medios y entretenimiento.
+
+En el libro \textit{Movie analytics: a hollywood introduction to big data} \cite{movie2015} se aplicaron la minería de datos, minería de textos y análisis de redes sociales para aprender a analizar los datos de las películas. Se buscó una relación entre la información obtenida del análisis y la cantidad de estrellas otorgadas por el publico en la IMDB. Además compararon lo aprendido con datos reales obtenidos de una película Francesa. En el capitulo \textit{Oscar Prediction and Prediction Markets} \cite{inbook} se examinó el papel de los mercados de predicción en la evaluación de la probabilidad de que una película nominada reciba un premio de la Academia.
+
+\section*{Metodología}
+En esta sección veremos la información particular de los datos, y que herramientas utilizamos y con que fin. Se aplicó un proceso de limpieza de datos ya que estos presentaban espacios vacíos, errores de tipo de dato o se encontraban formas en las que se llenó un campo, siendo varias de ellas diferentes representaciones de la misma información. Finalmente, de acuerdo a que hipótesis se estaba probando, se seleccionaba solo algunos campos de los registros.
+
+
+\subsection*{Datos}
+Contamos con cinco documentos en formato de hoja de cálculo, los cuales son los registros al festival de cine. Estos datos representan los registros desde el año 2015 al 2018.
+
+
+\subsection*{Herramientas}
+Utilizamos las librerías Numpy\cite{numpy} y Pandas\cite{pandas} para la captura y almacenamiento de los datos limpios y poder trabajar con ellos.
+
+Importamos la librería Scipy\cite{scipy} para poder realizar análisis estadísticos y MatPlotLib\cite{matplotlib} para graficar los resultados.
+
+Se implementó SKLearn\cite{sklearn} para realizar clasificaciones y agrupamientos de los datos en base a su comportamiento.
+
+
+
+
+\section*{Resultados}
+P10
+P11
+P13
+***PENDIENTE DE AGREGAR ***
+
+
+
+
+\section*{Conclusiones}
+***PENDIENTE DE AGREGAR ***
+
+
+
+
+
+\subsection*{Agradecimientos}
+Agradezco al Consejo Nacional de Ciencia y Tecnología (CONACYT) por haberme financiado una beca sin la cual no podría haber analizado estos datos.
+
+Agradezco al Sr. Juan Beltran, Director creativo de Valencia Producciones y al festival SmartFilm, por haberme proporcionado los datos para su análisis.
+
+\section*{Referencias}
+\bibliographystyle{plainurl}
+
+\bibliography{mybiblio}
+
+
+
+\end{document}
