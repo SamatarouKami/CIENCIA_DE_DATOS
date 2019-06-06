@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.5)  3 JUN 2019 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.14)  6 JUN 2019 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -841,65 +841,102 @@ LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+)
+\c@ContinuedFloat=\count112
+)
+\c@subfigure=\count113
+\c@subtable=\count114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count116
+\float@exts=\toks26
+\float@box=\box32
+\@float@everytoks=\toks27
+\@floatcapt=\box33
 ) (./articulo.aux
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+
+
+LaTeX Warning: Label `fig:MachineLearningR' multiply defined.
+
 )
 \openout1 = `articulo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 13.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 13.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 17.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 17.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 13.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 17.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 13.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 17.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 13.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 13.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen128
-\scratchbox=\box32
-\nofMPsegments=\count113
-\nofMParguments=\count114
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen129
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count117
+\scratchdimen=\dimen135
+\scratchbox=\box34
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen136
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -988,23 +1025,26 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 34.
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 34.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -1012,172 +1052,193 @@ File: utxsyc.fd 2000/12/15 v3.1
 
 
 ]
-Package epstopdf Info: Source file: <01.eps>
-(epstopdf)                    date: 2019-06-03 11:53:11
-(epstopdf)                    size: 649050 bytes
-(epstopdf)             Output file: <01-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-03 12:01:24
-(epstopdf)                    size: 9056 bytes
-(epstopdf)             Command: <repstopdf --outfile=01-eps-converted-to.pdf 01
-.eps>
-(epstopdf)             \includegraphics on input line 87.
-Package epstopdf Info: Output file is already uptodate.
+<01.png, id=10, 387.4475pt x 266.9975pt>
+File: 01.png Graphic file (type png)
+<use 01.png>
+Package pdftex.def Info: 01.png  used on input line 91.
+(pdftex.def)             Requested size: 123.9766pt x 85.43279pt.
+<02.png, id=12, 387.4475pt x 266.9975pt>
+File: 02.png Graphic file (type png)
+<use 02.png>
+Package pdftex.def Info: 02.png  used on input line 95.
+(pdftex.def)             Requested size: 123.9766pt x 85.43279pt.
+<03.png, id=13, 390.45876pt x 266.9975pt>
+File: 03.png Graphic file (type png)
+<use 03.png>
+Package pdftex.def Info: 03.png  used on input line 99.
+(pdftex.def)             Requested size: 123.71375pt x 84.59354pt.
+<04.png, id=14, 387.4475pt x 266.9975pt>
+File: 04.png Graphic file (type png)
+<use 04.png>
+Package pdftex.def Info: 04.png  used on input line 103.
+(pdftex.def)             Requested size: 123.71375pt x 85.25352pt.
+<05.png, id=15, 373.395pt x 252.945pt>
+File: 05.png Graphic file (type png)
+<use 05.png>
+Package pdftex.def Info: 05.png  used on input line 114.
+(pdftex.def)             Requested size: 123.9766pt x 83.98157pt.
+<06.png, id=16, 373.395pt x 252.945pt>
+File: 06.png Graphic file (type png)
+<use 06.png>
+Package pdftex.def Info: 06.png  used on input line 118.
+(pdftex.def)             Requested size: 123.9766pt x 83.98157pt.
+ [2 <./01.png> <./02.png> <./03.png> <./04.png> <./05.png> <./06.png>]
+<09.png, id=26, 620.3175pt x 606.265pt>
+File: 09.png Graphic file (type png)
+<use 09.png>
+Package pdftex.def Info: 09.png  used on input line 137.
+(pdftex.def)             Requested size: 182.70319pt x 178.55984pt.
 
-
-pdfTeX warning: pdflatex (file ./01-eps-converted-to.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<01-eps-converted-to.pdf, id=10, 399.4925pt x 266.9975pt>
-File: 01-eps-converted-to.pdf Graphic file (type pdf)
-<use 01-eps-converted-to.pdf>
-Package pdftex.def Info: 01-eps-converted-to.pdf  used on input line 87.
-(pdftex.def)             Requested size: 208.79681pt x 139.54837pt.
-Package epstopdf Info: Source file: <02.eps>
-(epstopdf)                    date: 2019-06-03 11:53:20
-(epstopdf)                    size: 629653 bytes
-(epstopdf)             Output file: <02-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-03 12:01:24
-(epstopdf)                    size: 8152 bytes
-(epstopdf)             Command: <repstopdf --outfile=02-eps-converted-to.pdf 02
-.eps>
-(epstopdf)             \includegraphics on input line 90.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./02-eps-converted-to.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<02-eps-converted-to.pdf, id=11, 387.4475pt x 266.9975pt>
-File: 02-eps-converted-to.pdf Graphic file (type pdf)
-<use 02-eps-converted-to.pdf>
-Package pdftex.def Info: 02-eps-converted-to.pdf  used on input line 90.
-(pdftex.def)             Requested size: 208.79681pt x 143.88722pt.
-Package epstopdf Info: Source file: <03.eps>
-(epstopdf)                    date: 2019-06-03 11:54:24
-(epstopdf)                    size: 1820388 bytes
-(epstopdf)             Output file: <03-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-03 12:01:25
-(epstopdf)                    size: 38570 bytes
-(epstopdf)             Command: <repstopdf --outfile=03-eps-converted-to.pdf 03
-.eps>
-(epstopdf)             \includegraphics on input line 95.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./03-eps-converted-to.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<03-eps-converted-to.pdf, id=12, 555.07375pt x 542.025pt>
-File: 03-eps-converted-to.pdf Graphic file (type pdf)
-<use 03-eps-converted-to.pdf>
-Package pdftex.def Info: 03-eps-converted-to.pdf  used on input line 95.
-(pdftex.def)             Requested size: 208.79681pt x 203.88744pt.
-[2 <./01-eps-converted-to.pdf> <./02-eps-converted-to.pdf> <./03-eps-converted-
-to.pdf>]
-Package epstopdf Info: Source file: <04.eps>
-(epstopdf)                    date: 2019-06-03 11:58:18
-(epstopdf)                    size: 7958793 bytes
-(epstopdf)             Output file: <04-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-03 12:01:30
-(epstopdf)                    size: 414561 bytes
-(epstopdf)             Command: <repstopdf --outfile=04-eps-converted-to.pdf 04
-.eps>
-(epstopdf)             \includegraphics on input line 103.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./04-eps-converted-to.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<04-eps-converted-to.pdf, id=25, 1148.29pt x 1148.29pt>
-File: 04-eps-converted-to.pdf Graphic file (type pdf)
-<use 04-eps-converted-to.pdf>
-Package pdftex.def Info: 04-eps-converted-to.pdf  used on input line 103.
-(pdftex.def)             Requested size: 208.79681pt x 208.78586pt.
-Package epstopdf Info: Source file: <05.eps>
-(epstopdf)                    date: 2019-06-03 11:58:24
-(epstopdf)                    size: 579967 bytes
-(epstopdf)             Output file: <05-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-03 12:01:31
-(epstopdf)                    size: 8742 bytes
-(epstopdf)             Command: <repstopdf --outfile=05-eps-converted-to.pdf 05
-.eps>
-(epstopdf)             \includegraphics on input line 112.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./05-eps-converted-to.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<05-eps-converted-to.pdf, id=26, 376.40625pt x 252.945pt>
-File: 05-eps-converted-to.pdf Graphic file (type pdf)
-<use 05-eps-converted-to.pdf>
-Package pdftex.def Info: 05-eps-converted-to.pdf  used on input line 112.
-(pdftex.def)             Requested size: 208.79681pt x 140.31665pt.
-Package epstopdf Info: Source file: <06.eps>
-(epstopdf)                    date: 2019-06-03 11:58:28
-(epstopdf)                    size: 599875 bytes
-(epstopdf)             Output file: <06-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-03 12:01:31
-(epstopdf)                    size: 12265 bytes
-(epstopdf)             Command: <repstopdf --outfile=06-eps-converted-to.pdf 06
-.eps>
-(epstopdf)             \includegraphics on input line 116.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./06-eps-converted-to.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<06-eps-converted-to.pdf, id=27, 389.455pt x 252.945pt>
-File: 06-eps-converted-to.pdf Graphic file (type pdf)
-<use 06-eps-converted-to.pdf>
-Package pdftex.def Info: 06-eps-converted-to.pdf  used on input line 116.
-(pdftex.def)             Requested size: 208.79681pt x 135.60791pt.
-Package epstopdf Info: Source file: <07.eps>
-(epstopdf)                    date: 2019-06-03 11:58:32
-(epstopdf)                    size: 579967 bytes
-(epstopdf)             Output file: <07-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-03 12:01:32
-(epstopdf)                    size: 8680 bytes
-(epstopdf)             Command: <repstopdf --outfile=07-eps-converted-to.pdf 07
-.eps>
-(epstopdf)             \includegraphics on input line 124.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./07-eps-converted-to.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<07-eps-converted-to.pdf, id=28, 376.40625pt x 252.945pt>
-File: 07-eps-converted-to.pdf Graphic file (type pdf)
-<use 07-eps-converted-to.pdf>
-Package pdftex.def Info: 07-eps-converted-to.pdf  used on input line 124.
-(pdftex.def)             Requested size: 208.79681pt x 140.31665pt.
-[3 <./04-eps-converted-to.pdf> <./05-eps-converted-to.pdf> <./06-eps-converted-
-to.pdf> <./07-eps-converted-to.pdf>] (./articulo.bbl
-Underfull \hbox (badness 1122) in paragraph at lines 34--37
-[]\OT1/txr/m/n/8 Dominique Haugh-ton, Mark-David McLaugh-lin, Ke-vin Men-tzer, 
-and
+Overfull \hbox (0.83012pt too wide) in paragraph at lines 151--152
+[]\OT1/txr/m/n/10 Este al-go-rit-mo [[]] agru-pa los da-tos al tra-tar de se-pa
+-rar mues-
  []
 
-) [4
+<15.png, id=27, 367.3725pt x 252.945pt>
+File: 15.png Graphic file (type png)
+<use 15.png>
+Package pdftex.def Info: 15.png  used on input line 157.
+(pdftex.def)             Requested size: 123.9766pt x 85.35945pt.
+<16.png, id=28, 382.42876pt x 252.945pt>
+File: 16.png Graphic file (type png)
+<use 16.png>
+Package pdftex.def Info: 16.png  used on input line 162.
+(pdftex.def)             Requested size: 123.9766pt x 81.99773pt.
+<17.png, id=29, 367.3725pt x 252.945pt>
+File: 17.png Graphic file (type png)
+<use 17.png>
+Package pdftex.def Info: 17.png  used on input line 167.
+(pdftex.def)             Requested size: 123.9766pt x 85.35945pt.
+<14.png, id=30, 401.5pt x 316.18124pt>
+File: 14.png Graphic file (type png)
+<use 14.png>
+Package pdftex.def Info: 14.png  used on input line 186.
+(pdftex.def)             Requested size: 156.6016pt x 123.32466pt.
 
-] (./articulo.aux
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
-) ) 
+Overfull \hbox (3.11072pt too wide) in paragraph at lines 193--194
+[]\OT1/txr/m/n/10 El kit de he-rra-mien-tas de len-gua-je na-tu-ral, o m[]as co
+m[]unmen-
+ []
+
+[3 <./09.png> <./15.png> <./16.png> <./17.png> <./14.png>]
+<18.png, id=39, 808.01875pt x 416.55624pt>
+File: 18.png Graphic file (type png)
+<use 18.png>
+Package pdftex.def Info: 18.png  used on input line 200.
+(pdftex.def)             Requested size: 123.9766pt x 63.91086pt.
+<19.png, id=40, 808.01875pt x 416.55624pt>
+File: 19.png Graphic file (type png)
+<use 19.png>
+Package pdftex.def Info: 19.png  used on input line 205.
+(pdftex.def)             Requested size: 123.9766pt x 63.91086pt.
+<20.png, id=41, 808.01875pt x 416.55624pt>
+File: 20.png Graphic file (type png)
+<use 20.png>
+Package pdftex.def Info: 20.png  used on input line 210.
+(pdftex.def)             Requested size: 123.9766pt x 63.91086pt.
+<21.png, id=42, 808.01875pt x 416.55624pt>
+File: 21.png Graphic file (type png)
+<use 21.png>
+Package pdftex.def Info: 21.png  used on input line 215.
+(pdftex.def)             Requested size: 123.9766pt x 63.91086pt.
+<22.png, id=43, 871.255pt x 471.7625pt>
+File: 22.png Graphic file (type png)
+<use 22.png>
+Package pdftex.def Info: 22.png  used on input line 235.
+(pdftex.def)             Requested size: 261.0pt x 141.32108pt.
+<23.png, id=44, 959.585pt x 936.49875pt>
+File: 23.png Graphic file (type png)
+<use 23.png>
+Package pdftex.def Info: 23.png  used on input line 240.
+(pdftex.def)             Requested size: 261.0pt x 254.71571pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 234--243
+ [][] 
+ []
+
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 234--243
+ [] 
+ []
+
+[4 <./18.png> <./19.png> <./20.png> <./21.png> <./22.png> <./23.png>]
+Overfull \hbox (0.17072pt too wide) in paragraph at lines 256--257
+[]\OT1/txr/m/n/10 Agradezco a Juan Beltr[]an, di-rec-tor crea-ti-vo de Va-len-c
+ia Pro-
+ []
+
+(./articulo.bbl)
+<07.png, id=54, 630.355pt x 354.32375pt>
+File: 07.png Graphic file (type png)
+<use 07.png>
+Package pdftex.def Info: 07.png  used on input line 269.
+(pdftex.def)             Requested size: 261.0pt x 146.7064pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 268--272
+ [][] 
+ []
+
+<08.png, id=55, 549.05125pt x 414.54875pt>
+File: 08.png Graphic file (type png)
+<use 08.png>
+Package pdftex.def Info: 08.png  used on input line 274.
+(pdftex.def)             Requested size: 261.0pt x 197.0645pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 273--277
+ [][] 
+ []
+
+<10.png, id=56, 1148.29pt x 1148.29pt>
+File: 10.png Graphic file (type png)
+<use 10.png>
+Package pdftex.def Info: 10.png  used on input line 287.
+(pdftex.def)             Requested size: 156.6016pt x 156.58939pt.
+<11.png, id=57, 1148.29pt x 1148.29pt>
+File: 11.png Graphic file (type png)
+<use 11.png>
+Package pdftex.def Info: 11.png  used on input line 292.
+(pdftex.def)             Requested size: 156.6016pt x 156.58939pt.
+<12.png, id=58, 1148.29pt x 1148.29pt>
+File: 12.png Graphic file (type png)
+<use 12.png>
+Package pdftex.def Info: 12.png  used on input line 297.
+(pdftex.def)             Requested size: 156.6016pt x 156.58939pt.
+<13.png, id=59, 1148.29pt x 1148.29pt>
+File: 13.png Graphic file (type png)
+<use 13.png>
+Package pdftex.def Info: 13.png  used on input line 302.
+(pdftex.def)             Requested size: 156.6016pt x 156.58939pt.
+[5 <./07.png> <./08.png>]
+Overfull \vbox (61.99252pt too high) has occurred while \output is active []
+
+
+[6
+
+ <./10.png> <./11.png> <./12.png> <./13.png>] (./articulo.aux
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5228 strings out of 492982
- 66809 string characters out of 6134896
- 148371 words of memory out of 5000000
- 8638 multiletter control sequences out of 15000+600000
- 30118 words of font info for 81 fonts, out of 8000000 for 9000
+ 6795 strings out of 492982
+ 91762 string characters out of 6134896
+ 178429 words of memory out of 5000000
+ 10182 multiletter control sequences out of 15000+600000
+ 32252 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,30p,943b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on articulo.pdf (4 pages, 552061 bytes).
+ 42i,7n,40p,899b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on articulo.pdf (6 pages, 1700329 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
