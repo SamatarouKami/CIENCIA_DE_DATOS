@@ -17,3 +17,5 @@ Materia de Ciencia de Datos
 |[Práctica 11](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/old/P11.ipynb)|[Práctica 11](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/P11.ipynb)|
 |[Práctica 12*](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/old/P12.ipynb)|[Práctica 12](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/P12.ipynb)|
 |[Práctica 13](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/old/P13.ipynb)|[Práctica 13](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/P13.ipynb)|
+|[Artículo](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/old/LAA.pdf)|[Artículo](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/Portafolio/P14.pdf)|
+| |[Portafolio de Eviencias](https://nbviewer.jupyter.org/github/SamatarouKami/CIENCIA_DE_DATOS/blob/master/Portafolio/portafolio.pdf)|
